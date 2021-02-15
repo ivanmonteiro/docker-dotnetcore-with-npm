@@ -1,2 +1,4 @@
-Also available as an image on docker hub
-https://hub.docker.com/repository/docker/ivanmonteiro/dotnetcore-with-npm
+
+# docker-dotnetcore-with-npm
+
+This Dockerfile adds node.js v12 together with dotnet-core.
