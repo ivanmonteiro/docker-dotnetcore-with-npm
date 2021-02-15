@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR /app
 RUN apt-get update -yq && apt-get install -yq curl
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
     apt-get update && \
