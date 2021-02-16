@@ -1,4 +1,4 @@
 
-# docker-dotnetcore-with-npm
+# dotnet-5-sdk-with-nodejs
 
-This Dockerfile adds node.js v12 together with dotnet-core.
+A base Dockerfile for .Net 5 with node.js v12.
